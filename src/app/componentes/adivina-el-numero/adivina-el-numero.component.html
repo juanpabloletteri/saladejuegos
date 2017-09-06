@@ -1,0 +1,10 @@
+<p>
+  adivina-el-numero works!
+</p>
+<h1>{{juegoAdivina.nombre}}</h1>
+
+<label for="">Ingrese numero:</label>
+<input type="number" [(ngModel)]="juegoAdivina.numeroIngresado"><br>
+
+<button (click)="juegoAdivina.GenerarNumeroSecreto()">Nuevo</button>
+<button (click)="juegoAdivina.Verificar()">Verificar</button>
