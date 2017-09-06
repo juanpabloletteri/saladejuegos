@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Adivina} from '../../clases/adivina';
+import { Adivina } from '../../clases/adivina';
 
 @Component({
   selector: 'app-adivina-el-numero',
@@ -8,10 +8,10 @@ import {Adivina} from '../../clases/adivina';
 })
 export class AdivinaElNumeroComponent implements OnInit {
 
-  public juegoAdivina:Adivina;
+  public juegoAdivina: Adivina;
 
-  constructor() { 
-    this.juegoAdivina=new Adivina("Juego Adivina");
+  constructor() {
+    this.juegoAdivina = new Adivina("Juego Adivina");
   }
 
   ngOnInit() {

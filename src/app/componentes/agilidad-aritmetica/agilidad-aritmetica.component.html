@@ -1,3 +1,11 @@
 <p>
   agilidad-aritmetica works!
 </p>
+
+<label>{{juegoAgilidad.numeroUno}}</label> <label for="">{{juegoAgilidad.operador}}</label> <label for="">{{juegoAgilidad.numeroDos}}</label> = 
+
+<input type="number" [(ngModel)]="juegoAgilidad.numeroIngresado"><br><br>
+
+
+<button (click)="juegoAgilidad.generarOperacion()">Nuevo</button><br><br>
+<button (click)="juegoAgilidad.Verificar()">Apostar</button>

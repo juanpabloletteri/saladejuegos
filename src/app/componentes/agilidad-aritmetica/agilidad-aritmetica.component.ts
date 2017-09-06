@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Agilidad } from '../../clases/agilidad';
 
 @Component({
   selector: 'app-agilidad-aritmetica',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AgilidadAritmeticaComponent implements OnInit {
 
-  constructor() { }
+  public juegoAgilidad: Agilidad;
+
+  constructor() {
+    this.juegoAgilidad = new Agilidad("agilidad");
+  }
 
   ngOnInit() {
   }
