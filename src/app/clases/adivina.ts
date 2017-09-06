@@ -18,11 +18,11 @@ export class Adivina {
 
     public Verificar(){
         if(this.numeroSecreto==this.numeroIngresado){
-            console.log("GANO");
+            alert("GANO");
             this.gano=true;
         }
         else{
-            console.log("PERDIO");
+            alert("PERDIO");
             this.gano=false;
         }
         //lo borra despues de cada jugada

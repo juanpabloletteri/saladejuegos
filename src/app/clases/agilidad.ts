@@ -47,7 +47,10 @@ export class Agilidad {
     public Verificar() {
         if (this.resultado == this.numeroIngresado) {
             this.gano = true;
+            alert("GANOO!!!");
         }
-        console.log(this.gano);
+        else
+            alert("PERDIO!!!");   
+        this.numeroIngresado=null;
     }
 }
